@@ -4,6 +4,7 @@ function enterTardis() {
   
   exterior.style.visibility = 'hidden'
   exterior.style.opacity = '0'
+  
   interior.style.visibility = 'visible'
   interior.style.opacity = '1'
 }
