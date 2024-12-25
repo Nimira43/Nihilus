@@ -26,3 +26,12 @@ body {
   border-radius: 8px 8px 0 0;
   transition: all 3s;
 }
+
+.tardis-interior {
+  width: 80vw;
+  height: 80vh;
+  background-color: #1e88e5;
+  border: 5px;
+  border-radius: 10px;
+  visibility: hidden;
+}
