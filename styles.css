@@ -14,6 +14,18 @@ body {
   perspective: 1000px;
 }
 
+.tardis-container {
+  width: 100px;
+  height: 170px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 5s infinite linear;
+}
+
+.tardis-container:hover {
+  animation-play-state: paused;
+}
+
 .tardis-exterior,
 .tardis-interior {
   position: absolute;
@@ -64,5 +76,5 @@ body {
   outline: none;
   cursor: pointer;
   border-radius: 3px;
-  
+
 }
