@@ -1,9 +1,19 @@
 function enterTardis() {
-  document.getElementById('exterior').style.visibility = 'hidden';
-  document.getElementById('interior').style.visibility = 'visible';
+  const exterior = document.getElementById('exterior')
+  const interior = document.getElementById('interior')
+  
+  exterior.style.visibility = 'hidden'
+  interior.style.visibility = 'visible'
+  interior.style.transform = 'rotateY(0deg)'
 }
 
 function exitTardis() {
-  document.getElementById('interior').style.visibility = 'hidden';
-  document.getElementById('exterior').style.visibility = 'visible';
+  const exterior = document.getElementById('exterior')
+  const interior = document.getElementById('interior')
+
+  interior.style.transform = 'rotateY(-180deg)'
+  setTimeout(() => {
+    interior.style.visibility = 'hidden'
+    exterior.style.visibility = 'visible'
+  }, 1000)
 }
