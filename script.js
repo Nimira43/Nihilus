@@ -11,7 +11,7 @@ function exitTardis() {
   const exterior = document.getElementById('exterior')
   const interior = document.getElementById('interior')
 
-  interior.style.transform = 'rotateY(-180deg)'
+  interior.style.transform = 'rotateY(180deg)'
   setTimeout(() => {
     interior.style.visibility = 'hidden'
     exterior.style.visibility = 'visible'

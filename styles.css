@@ -38,6 +38,7 @@ body {
   border: 2px solid #fffaf0;
   border-radius: 8px 8px 0 0;
   transition: all 0.3s;
+  /* backface-visibility: hidden; */
 }
 
 .tardis-exterior {
@@ -52,10 +53,19 @@ body {
     rgba(0, 0, 0, 0.4)),
     url('./images/tardis.jpg') no-repeat center;
   background-size: cover;
-  border: 5px;
+  border: 5px solid #fffaf0;
   border-radius: 10px;
   visibility: hidden;
   transform: rotateY(-180deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .interior-content {
