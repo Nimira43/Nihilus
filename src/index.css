@@ -8,9 +8,17 @@
 :root {
   --primary: #ce2b37;
   --secondary: #009246;
+  
   --light: #fff;
   --dark: #111;
   --grey-extra-light: #eee;
   --grey-light: #ccc;
   --grey-dark: #333;
 }
+
+.logo {
+  font-family: 'Pinyon Script', cursive;
+  ;
+  color: var(--grey-dark);
+}
+

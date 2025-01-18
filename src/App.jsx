@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Vera Pizza Napoletana</h1>
+      <h1 className='logo'>Vera Pizza Napoletana </h1>
     </div>
   )
 }
