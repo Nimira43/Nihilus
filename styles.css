@@ -162,3 +162,20 @@ i {
   top: 1rem;
   right: 0;
 }
+
+.header-nav input[type="checkbox"]:checked + .header-hamburger > div {
+  transform: rotate(135deg)
+}
+
+.header-nav input[type="checkbox"]:checked +.header-hamburger > div::before {
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: rotate(270deg);
+}
+
+.header-nav input[type="checkbox"]:checked +.header-hamburger > div::after {
+  opacity: 0;
+}
+
+
