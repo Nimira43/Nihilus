@@ -21,12 +21,17 @@ html {
   --support : #ffd700;
   --support-light : hsla(51, 100%, 50%, 0.55);
   --support-dark : hsla(51, 100%, 50%, 0.85);
-  --feature: #008080;
-  --feature-light: hsla(180, 100%, 25%, 0.55);
-  --feature-dark: hsla(180, 100%, 25%, 0.85);
   --light: #fffcfa;
   --light-light: hsla(24, 100%, 99%, 0.55);
   --light-dark: hsla(24, 100%, 99%, 0.85);
+  --cyan: #008080;
+  --cyan-light: hsla(180, 100%, 25%, 0.55);
+  --cyan-dark: hsla(180, 100%, 25%, 0.85);
+  --dark: #111;
+  --grey-dark: #333;
+  --grey-medius: #999;
+  --grey-light: #ccc;
+  --grey-light-extra: #eee;
   --transition: all 0.5s ease-in-out;
   --font-size-title: calc(2rem + 2vw);
   --padding-section: 8vh 3vw;
@@ -38,5 +43,7 @@ html {
 
 body {
   line-height: 1.7;
+  background-color: var(--light);
+  color: var(--dark);
 }
 
