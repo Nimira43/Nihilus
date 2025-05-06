@@ -188,12 +188,28 @@ i {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: white;
   display: grid;
   place-items: center;
   overflow: hidden;
   /* visibility: hidden;; */
-  
+}
+
+.header-menu > div {
+  background-color: var(--dark-light);
+  height: 200%;
+  width: 200%;
+  display: grid;
+  place-items: center;
+  /* transform: scalex(0); */
+}
+
+.header-menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  background-color: green;
+  /* opacity: 0; */
 }
 
 
