@@ -56,3 +56,11 @@ a {
   transition: var(--transition);
   z-index: 1;
 }
+
+p {
+  font-size: calc(1rem + 1vw);
+}
+
+li {
+  margin-bottom: 4rem;
+}
