@@ -75,3 +75,8 @@ p {
 li {
   margin-bottom: 4rem;
 }
+
+i {
+  font-size: var(--font-size-title);
+  color: var(--main);
+}
