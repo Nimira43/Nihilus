@@ -121,3 +121,32 @@ i {
   place-items: center;
 }
 
+.header-hamburger > div {
+  position: relative;
+  height: 0.3rem;
+  width: 100%;
+  background-color: var(--main);
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+}
+
+.header-hamburger > div::before,
+.header-hamburger > div::after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  width: 60%;
+  height: inherit;
+  background-color: inherit;
+  z-index: 2;
+}
+
+.header-hamburger > div::before {
+  left: 0;
+}
+
+.header-hamburger > div::after {
+  top: 1rem;
+  right: 0;
+}
