@@ -47,6 +47,17 @@ body {
   color: var(--dark);
 }
 
+.container {
+  display: grid;
+  grid-template-columns:
+    [container-start] 1fr [center-start] repeat(
+      10,
+      [col-start] minmax(min-content, 11rem) [col-end]
+    )
+    [center-end] 1fr [container-end];
+  grid-template-rows: 100vh repeat(8, min-content);
+}
+
 a {
   color: var(--grey-dark);
   font-size: calc(0.5rem + 1vw);
