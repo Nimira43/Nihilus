@@ -27,6 +27,9 @@ html {
   --light: #fffcfa;
   --light-light: hsla(24, 100%, 99%, 0.55);
   --light-dark: hsla(24, 100%, 99%, 0.85);
+  --transition: all 0.5s ease-in-out;
+  --font-size-title: calc(2rem + 2vw);
+  --padding-section: 8vh 3vw;
 }
 
 .logo {
