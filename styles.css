@@ -10,8 +10,23 @@
   list-style: none;
 }
 
-:root {
+html {
   font-size: 62.5%;
+}
+
+:root {
+  --main: #ff4500;
+  --main-light: hsla(16, 100%, 50%, 0.55);
+  --main-dark: hsla(16, 100%, 50%, 0.85);
+  --support : #ffd700;
+  --support-light : hsla(51, 100%, 50%, 0.55);
+  --support-dark : hsla(51, 100%, 50%, 0.85);
+  --feature: #008080;
+  --feature-light: hsla(180, 100%, 25%, 0.55);
+  --feature-dark: hsla(180, 100%, 25%, 0.85);
+  --light: #fffcfa;
+  --light-light: hsla(24, 100%, 99%, 0.55);
+  --light-dark: hsla(24, 100%, 99%, 0.85);
 }
 
 .logo {
