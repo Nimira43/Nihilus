@@ -24,9 +24,9 @@ html {
   --light: #fffcfa;
   --light-light: hsla(24, 100%, 99%, 0.55);
   --light-dark: hsla(24, 100%, 99%, 0.85);
-  --cyan: #008080;
-  --cyan-light: hsla(180, 100%, 25%, 0.55);
-  --cyan-dark: hsla(180, 100%, 25%, 0.85);
+  --dark: #111;
+  --dark-light: hsla(0, 0%, 7%, 0.55);
+  --dark-dark: hsla(0, 0%, 7%, 0.85);
   --dark: #111;
   --grey-dark: #333;
   --grey-medius: #999;
@@ -79,4 +79,13 @@ li {
 i {
   font-size: var(--font-size-title);
   color: var(--main);
+}
+
+#header {
+  grid-column: container-start / container-end; 
+  background:linear-gradient(
+    var(--dark-light),
+    var(--dark-light)),
+    url('./images/hero/hero-bg.jpg') no-repeat center;
+  background-size: cover;
 }
