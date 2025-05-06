@@ -89,3 +89,10 @@ i {
     url('./images/hero/hero-bg.jpg') no-repeat center;
   background-size: cover;
 }
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
