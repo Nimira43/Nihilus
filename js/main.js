@@ -23,7 +23,31 @@ let mY = 0
 const z = 100
 
 const animateCircles = (e, x, y) => {
-
+  if (x < mX) {
+    circles.forEach((circle) => {
+      circle.style.left = `${z}px`
+    })
+    mainImg.style.left = `${z}px`
+  } else if (x > mX) {
+    circles.forEach((circle) => {
+      circle.style.left = `-${z}px`
+    })
+    mainImg.style.left = `-${z}px`
+  }
+  
+  if (x < mY) {
+    circles.forEach((circle) => {
+      circle.style.top = `${z}px`
+    })
+    mainImg.style.top = `${z}px`
+  } else if (x > mY) {
+    circles.forEach((circle) => {
+      circle.style.top = `-${z}px`
+    })
+    mainImg.style.top = `-${z}px`
+  }
+  mX = e.clientX
+  mY = e.clientY
 }
 
 const mouseCircleTransform = (hoveredEl) => {
