@@ -11,13 +11,15 @@
   font-weight: 300;
 }
 
+:root {
+  --dark: #111;
+  --light: #fffcfa;
+  --main: #ff4500;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-}
-
-.logo {
-  font-family: 'Tangerine', cursive;
 }
 
 .center {
@@ -31,7 +33,7 @@ html {
   bottom: 3rem;
   width: 13rem;
   height: 13rem;
-  background-color: red;
+  background-color: ;
   border-radius: 50%;
   border: 0.2rem solid green;
   padding: 0.1rem;
@@ -303,6 +305,7 @@ html {
 }
 
 .logo {
+  font-family: 'Tangerine', cursive;
   position: absolute;
   top: 2rem;
   left: 5rem;
