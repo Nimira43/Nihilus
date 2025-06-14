@@ -168,3 +168,16 @@ html {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.circle {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: left 2s, top 2s;
+}
+
