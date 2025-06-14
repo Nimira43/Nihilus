@@ -53,7 +53,12 @@ const animateCircles = (e, x, y) => {
 let hoveredElPosition = []
 
 const stickyElement = (x, y, hoveredEl) => {
-
+  if (hoveredEl.classList.contains('sticky')) {
+    hoveredElPosition.length < 1 && (
+      hoveredElPosition = [hoveredEl.offsetTop, hoveredEl.offsetLeft]
+    )
+    hoveredEl.style.cssText = `top: ${y}px; left: ${x}px`
+  }
 
 }
 
