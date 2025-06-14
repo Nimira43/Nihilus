@@ -137,4 +137,9 @@ mainBtns.forEach((btn) => {
   ripple.classList('ripple')
   ripple.style.left = `${left}px`
   ripple.style.top = `${top}px`
+  btn.prepend(ripple)
 })
+
+btn.addEventListener('mouseleave'), () => {
+  btn.removeChild(ripple)
+}
