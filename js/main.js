@@ -53,3 +53,7 @@ document.body.addEventListener('mousemove', (e) => {
   mouseCircleTransform(hoveredEl)
 })
 
+document.body.addEventListener('mouseleave', () => {
+  mouseCircle.style.opacity = '0'
+  mouseDot.style.opacity = '0'
+})
