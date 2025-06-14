@@ -43,3 +43,13 @@ const mouseCircleTransform = (hoveredEl) => {
     }
   }
 }
+
+document.body.addEventListener('mousemove', (e) => {
+  let x = e.clientX
+  let y = e.clientY
+
+  mouseCircleFn(x, y)
+  const hoveredEl = document.elementFromPoint(x, y)
+  mouseCircleTransform(hoveredEl)
+})
+
