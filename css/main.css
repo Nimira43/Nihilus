@@ -236,3 +236,13 @@ html {
   transition: left 2s, top 2s;
 }
 
+.featured-text-1 {
+  margin: 0 auto 0 10rem;
+}
+
+.featured-text-2 {
+  margin: 0 10rem 0 auto;
+}
+
+
+
