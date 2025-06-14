@@ -230,3 +230,21 @@ i {
   background-color: green;
   position: relative;
 }
+
+.header-menu ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: scaleY(0);
+  background-color: var(--dark-dark);
+  color: var(--main);
+}
+
+.header-menu ul li a:hover::before {
+  transform: scaleY(1);
+}
+
