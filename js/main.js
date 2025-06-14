@@ -84,6 +84,8 @@ document.body.addEventListener('mousemove', (e) => {
   let y = e.clientY
 
   mouseCircleFn(x, y)
+  animateCircles(e, x, y)
+
   const hoveredEl = document.elementFromPoint(x, y)
   mouseCircleTransform(hoveredEl)
 })
