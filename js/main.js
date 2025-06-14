@@ -22,6 +22,10 @@ let mX = 0
 let mY = 0
 const z = 100
 
+const animateCircles = (e, x, y) => {
+
+}
+
 const mouseCircleTransform = (hoveredEl) => {
   if (hoveredEl.classList.contains ('pointer-event')) {
     hoveredEl.onmousemove = () => {
