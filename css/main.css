@@ -157,6 +157,19 @@ html {
   background: grey;
 }
 
+.progress-bar {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 8rem;
+  height: 8rem;
+  background-color:aqua;
+  border-radius: 50%;
+  z-index: 200;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
 .section-1 {
   position: relative;
   width: 100%;
