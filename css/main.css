@@ -181,3 +181,11 @@ html {
   transition: left 2s, top 2s;
 }
 
+.circle-1 {
+  background: skyblue;
+  /* background-size: cover;
+  background-clip: content-box; */
+  border: 0.5rem solid red;
+  margin-left: -10rem;
+}
+
