@@ -170,6 +170,17 @@ html {
   transform: translate(-50%, -50%);
 }
 
+.half-circle,
+.half-circle-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  transform-origin: right center;
+  pointer-events: none;
+}
+
 .section-1 {
   position: relative;
   width: 100%;
