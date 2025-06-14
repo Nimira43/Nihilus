@@ -50,6 +50,14 @@ const animateCircles = (e, x, y) => {
   mY = e.clientY
 }
 
+let hoveredElPosition = []
+
+const stickyElement = (x, y, hoveredEl) => {
+
+
+}
+
+
 const mouseCircleTransform = (hoveredEl) => {
   if (hoveredEl.classList.contains ('pointer-event')) {
     hoveredEl.onmousemove = () => {
