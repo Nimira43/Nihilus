@@ -113,6 +113,8 @@ document.body.addEventListener('mousemove', (e) => {
   animateCircles(e, x, y)
 
   const hoveredEl = document.elementFromPoint(x, y)
+
+  stickyElement(x, y, hoveredEl)
   mouseCircleTransform(hoveredEl)
 })
 
