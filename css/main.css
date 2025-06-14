@@ -87,26 +87,14 @@ html {
   text-transform: uppercase;
 }
 
-.section-heading {
-  font-size: 2rem;
-  color: white;
-  text-transform: uppercase;
-  position: absolute;
-  top: 50%;
-  left: 10rem;
-  transform: translateY(-50%);
-  width: 0;
-  word-break: break-all;
-  line-height: 4;
-}
-
 .ripple {
   position: absolute;
   width: 0;
   height: 0;
   background: orange;
   border-radius: 50%;
-
+  transform: translate(-50%, -50%);
+  animation: rippleAnim 0.5s forwards;
 }
 
 @keyframes rippleAnim {
@@ -118,6 +106,19 @@ html {
     width: 210%;
     height: 210%;
   }
+}
+
+.section-heading {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 10rem;
+  transform: translateY(-50%);
+  width: 0;
+  word-break: break-all;
+  line-height: 4;
 }
 
 .mouse-circle,
@@ -238,7 +239,28 @@ html {
   pointer-events: none;
 }
 
+.menu-icon {
+  position: fixed;
+  top: 3.5rem;
+  right: 0;
+  width: 12rem;
+  height: 7rem;
+  flex-direction: column;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  z-index: 100;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  /* transition: opacity 0.2s; */
+  background-color: green;
+}
 
+.menu-icon-line {
+  width: 4rem;
+  height: 0.1rem;
+  background-color: white;
+  margin: 0.5rem 0;
+}
 
 .section-1 {
   position: relative;
