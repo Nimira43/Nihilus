@@ -82,7 +82,7 @@ html {
   width: 0.5rem;
   height: 0.5rem;
   background-color: red;
-  animation: 10s mouseDotAnim 10s infinite linear 
+  animation: 10s mouseDotAnim 10s infinite linear;
 }
 
 @keyframes mouseDotAnim {
