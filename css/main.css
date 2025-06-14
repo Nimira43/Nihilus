@@ -61,6 +61,23 @@ html {
   border: 0.1rem solid blue;
 }
 
+.main-btn-line:nth-child(1) {
+  transform: rotateZ(-45deg) translateX(-0.65rem);
+  transform-origin: left center;
+  border-right: none;
+}
+
+.main-btn-line:nth-child(2) {
+  transform: rotateZ(45deg) translateX(0.65rem);
+  transform-origin: right center;
+  border-left: none;
+}
+
+.main-btn-line:nth-child(2) {
+  transform: rotateZ(90deg) translateX(0.5rem);
+  border-left: none;
+}
+
 .mouse-circle,
 .mouse.dot {
   border-radius: 50%;
