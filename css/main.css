@@ -87,6 +87,19 @@ html {
   text-transform: uppercase;
 }
 
+.section-heading {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 10rem;
+  transform: translateY(-50%);
+  width: 0;
+  word-break: break-all;
+  line-height: 4;
+}
+
 .mouse-circle,
 .mouse.dot {
   border-radius: 50%;
