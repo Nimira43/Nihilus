@@ -26,4 +26,14 @@ html {
   align-items: center;
 }
 
-
+.main-btn {
+  position: absolute;
+  bottom: 3rem;
+  width: 13rem;
+  height: 13rem;
+  background-color: red;
+  border-radius: 50%;
+  border: 0.2rem solid gold;
+  padding: 0.1rem;
+  overflow: hidden;
+}
