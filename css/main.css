@@ -262,6 +262,21 @@ html {
   margin: 0.5rem 0;
 }
 
+.show-menu-icon {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar {
+  position: fixed;
+  top: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3rem;
+  z-index: 100;
+}
+
 .section-1 {
   position: relative;
   width: 100%;
