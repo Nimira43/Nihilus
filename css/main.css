@@ -236,6 +236,17 @@ html {
   transition: left 2s, top 2s;
 }
 
+.featured-text {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  width: 0;
+  word-wrap: break-word;
+  line-height: 3.5;
+  position: sticky;
+  top: 0;
+}
+
 .featured-text-1 {
   margin: 0 auto 0 10rem;
 }
