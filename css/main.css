@@ -275,6 +275,7 @@ html {
   justify-content: flex-end;
   padding-right: 3rem;
   z-index: 100;
+  transition: opacity 0.5s, visibility 0.5s, transform 0.5s;
 }
 
 .navbar-link {
@@ -283,6 +284,12 @@ html {
   text-transform: uppercase;
   color: black;
   margin: 0 2.5rem;
+}
+
+.hide-navbar {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(10rem);
 }
 
 .section-1 {
