@@ -16,6 +16,7 @@
   --light: #fffcfa;
   --main: #ff4500;
   --support: #ffd700;
+  --black: #000;
 }
 
 html {
@@ -137,7 +138,7 @@ html {
 .mouse-circle {
   width: 6rem;
   height: 6rem;
-  border: 0.1rem solid red;
+  border: 0.1rem solid var(--support);
   animation: mouseCircleAnim 10s linear infinite;
 }
 
@@ -167,7 +168,7 @@ html {
 .mouse-dot {
   width: 0.5rem;
   height: 0.5rem;
-  background-color: red;
+  background-color: var(--support);
   animation: 10s mouseDotAnim 10s infinite linear;
 }
 
@@ -204,7 +205,7 @@ html {
   right: 4rem;
   width: 8rem;
   height: 8rem;
-  background-color:rgba(0, 255, 255, 0.512);
+  background-color: white;
   border-radius: 50%;
   z-index: 200;
   overflow: hidden;
@@ -223,23 +224,23 @@ html {
 }
 
 .half-circle:nth-child(1) {
-  background-color: red;
+  background-color: var(--main);
 }
 
 .half-circle:nth-child(2) {
-  background-color: red;
+  background-color: var(--main);
 }
 
 .half-circle-top {
-  background-color: white;
+  background-color: var(--support);
 }
 
 .progress-bar-circle {
   width: 7.8rem;
   height: 7.8rem;
-  background-color: black;
+  background: var(--dark);
   border-radius: 50%;
-  color: white;
+  color: var(--main);
   font-size: 4rem;
   z-index: 200;
   transition: transform 0.5s;
@@ -265,7 +266,7 @@ html {
 .menu-icon-line {
   width: 4rem;
   height: 0.1rem;
-  background-color: white;
+  background-color: var(--support);
   margin: 0.5rem 0;
 }
 
