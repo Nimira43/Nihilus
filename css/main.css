@@ -252,7 +252,7 @@ html {
   cursor: pointer;
   transform: translate(-50%, -50%);
   /* transition: opacity 0.2s; */
-  background-color: green;
+
 }
 
 .menu-icon-line {
@@ -275,6 +275,14 @@ html {
   justify-content: flex-end;
   padding-right: 3rem;
   z-index: 100;
+}
+
+.navbar-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  margin: 0 2.5rem;
 }
 
 .section-1 {
