@@ -77,3 +77,9 @@ html {
     height: 6rem;
   }
 }
+
+.mouse-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+}
