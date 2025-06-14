@@ -37,3 +37,13 @@ html {
   padding: 0.1rem;
   overflow: hidden;
 }
+
+.mouse-circle,
+.mouse.dot {
+  border-radius: 50%;
+  position: fixed;
+  z-index: 300;
+  transform: translate(-50%, -50%);
+  /* opacity: 0; */
+  pointer-events: none;
+}
