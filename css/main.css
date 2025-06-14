@@ -181,6 +181,19 @@ html {
   pointer-events: none;
 }
 
+.half-circle:nth-child(1) {
+  background-color: red;
+}
+
+.half-circle:nth-child(2) {
+  background-color: red;
+}
+
+.half-circle-top {
+  background-color: white;
+}
+
+
 .section-1 {
   position: relative;
   width: 100%;
