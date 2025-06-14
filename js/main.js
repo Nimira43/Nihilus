@@ -34,5 +34,12 @@ const mouseCircleTransform = (hoveredEl) => {
     hoveredEl.onmouseleave = () => {
       mouseCircleBool = true
     }
+    document.onscroll = () => {
+      if (!mouseCircleBool) {
+        mouseCircle.style.top = `
+          ${hoveredEl.getBoundingClientRect().top}px
+        `
+      }
+    }
   }
 }
