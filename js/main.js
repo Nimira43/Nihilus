@@ -15,6 +15,9 @@ const mouseCircleFn = (x, y) => {
     `
 }
 
+const circles = document.querySelectorAll('.circle')
+
+
 const mouseCircleTransform = (hoveredEl) => {
   if (hoveredEl.classList.contains ('pointer-event')) {
     hoveredEl.onmousemove = () => {
