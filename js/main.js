@@ -68,10 +68,13 @@ const stickyElement = (x, y, hoveredEl) => {
       hoveredEl.style.cssText = ''
       hoveredElPosition = []
     }
+
+    hoveredEl.onmouseleave = () => {
+      hoveredEl.style.cssText = ''
+      hoveredElPosition = []
+    }
   }
-
 }
-
 
 const mouseCircleTransform = (hoveredEl) => {
   if (hoveredEl.classList.contains ('pointer-event')) {
