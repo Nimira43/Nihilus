@@ -100,6 +100,15 @@ html {
   line-height: 4;
 }
 
+.ripple {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: orange;
+  border-radius: 50%;
+
+}
+
 .mouse-circle,
 .mouse.dot {
   border-radius: 50%;
