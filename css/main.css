@@ -189,3 +189,31 @@ html {
   margin-left: -10rem;
 }
 
+.circle-2 {
+  background: skyblue;
+  /* background-size: cover;
+  background-clip: content-box; */
+  border: 0.5rem solid red;
+  margin-right: -10rem;
+}
+
+.circle-3 {
+  background: skyblue;
+  /* background-size: cover;
+  background-clip: content-box; */
+  border: 0.5rem solid red;
+  margin-left: -10rem;
+}
+
+.circle-4 {
+  background: skyblue;
+  /* background-size: cover;
+  background-clip: content-box; */
+  border: 0.5rem solid red;
+  margin-right: -10rem;
+}
+
+.main-circle {
+
+}
+
