@@ -156,6 +156,14 @@ html {
   height: 100vh;
 }
 
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  font-size: 2rem;
+  color: white;
+}
+
 .circles {
   position: absolute;
   background-color: orchid; 
