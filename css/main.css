@@ -214,6 +214,7 @@ html {
 }
 
 .main-circle {
+  background: blue;
   width: 55rem;
   height: 55rem;
   position: absolute;
@@ -222,5 +223,16 @@ html {
   transition: width 0.2s, height 0.2s;
 }
 
+.main-circle:hover {
+  width: 75rem;
+  height: 75rem;
+}
 
+.main-circle img {
+  /* mix-blend-mode: color-dodge; */
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: left 2s, top 2s;
+}
 
