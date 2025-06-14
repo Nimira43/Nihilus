@@ -15,6 +15,7 @@
   --dark: #111;
   --light: #fffcfa;
   --main: #ff4500;
+  --support: #ffd700;
 }
 
 html {
@@ -33,9 +34,9 @@ html {
   bottom: 3rem;
   width: 13rem;
   height: 13rem;
-  background-color: ;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  border: 0.2rem solid green;
+  border: 0.2rem dotted var(--support);
   padding: 0.1rem;
   overflow: hidden;
 }
@@ -43,7 +44,7 @@ html {
 .main-btn-content {
   width: 100%;
   height: 100%;
-  border: 0.2rem solid green;
+  border: 0.2rem solid var(--main);
   border-radius: 50%;
   transform: rotate(40deg);
   transition: transform 0.2s, border 0.2s;
@@ -51,7 +52,7 @@ html {
 
 .main-btn:hover .main-btn-content {
   transform: rotate(60deg);
-  border: 0.2rem dotted blue;
+  border: 0.2rem dotted var(--main);
   transition: transform 0.2s 0.5s, border 0.2s;
 }
 
@@ -60,7 +61,7 @@ html {
   top: 4rem;
   width: 3rem;
   height: 0.5rem;
-  border: 0.1rem solid blue;
+  border: 0.1rem solid var(--support);
 }
 
 .main-btn-line:nth-child(1) {
@@ -75,7 +76,7 @@ html {
   border-left: none;
 }
 
-.main-btn-line:nth-child(2) {
+.main-btn-line:nth-child(3) {
   transform: rotateZ(90deg) translateX(0.5rem);
   border-left: none;
 }
@@ -83,9 +84,9 @@ html {
 .main-btn span {
   position: absolute;
   bottom: 3rem;
-  color: white;
-  font-size: 11.1rem;
-  font-weight: 500;
+  color: var(--main);
+  font-size: 1.4rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
