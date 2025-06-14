@@ -214,6 +214,13 @@ html {
 }
 
 .main-circle {
-
+  width: 55rem;
+  height: 55rem;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: width 0.2s, height 0.2s;
 }
+
+
 
