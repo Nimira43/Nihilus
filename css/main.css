@@ -420,6 +420,11 @@ html {
   background-color: var(--black);
 }
 
+.latest-text {
+  width: 80%;
+  margin: auto;
+}
+
 @keyframes latestTextAnim {
   0% {
     color: var(--main);
