@@ -192,10 +192,16 @@ progressBar.addEventListener('click', (e) => {
   e.preventDefault()
 
   if(!imageWrapper) {
-    const sectionPositions = Array.from(sections).map((section) => scrolledPortion + section.getBoundingClientRect().top)
-  }
+    const sectionPositions = Array.from(sections).map(
+      (section) => scrolledPortion + section.getBoundingClientRect().top
+    )
+    
+    const position = sectionPositions.find((sectionPosition) => {
+      return sectionPosition > scrolledPortion
+    })
 
-  const position = sectionPositions.find((sectionPosition) => {
-    return sectionPosition > scrolledPortion
-  })
+    scrollBool ? window.scrollTo(0, 0) : window.scrollTo(0, position)
+  } else {
+    
+  }
 })
