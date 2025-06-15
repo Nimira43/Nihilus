@@ -310,7 +310,7 @@ html {
   position: absolute;
   top: 2rem;
   left: 5rem;
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--light);
 }
 
@@ -489,7 +489,7 @@ html {
 
 @media (max-width: 1150px) {
   html {
-    font-size: 1150px;
+    font-size: 55%;
   }
   .mouse-circle,
   .mouse-dot {
