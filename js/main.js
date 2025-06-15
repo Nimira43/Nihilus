@@ -166,4 +166,10 @@ const progressBarFn = (bigImgWrapper) => {
     page-height = imageWrapper.firstElementChild.scrollHeight
     scrolledPortion = imageWrapper.scrolling
   }
+
+  const scrolledPortionDegree = (scrolledPortion / (pageHeight - pageViewportHeight)) * 300
+
+  halfCircles.forEach((el) => {
+    el.style.transform - `rotate(${scrolledPortionDegree}deg)`
+  })
 }
