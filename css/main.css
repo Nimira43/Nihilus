@@ -205,8 +205,8 @@ html {
   right: 4rem;
   width: 8rem;
   height: 8rem;
-  background-color: white;
   border-radius: 50%;
+  border: 0.2rem dotted var(--support);
   z-index: 200;
   overflow: hidden;
   transform: translate(-50%, -50%);
@@ -254,13 +254,12 @@ html {
   width: 12rem;
   height: 7rem;
   flex-direction: column;
-  /* opacity: 0; */
-  /* visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
   z-index: 100;
   cursor: pointer;
   transform: translate(-50%, -50%);
-  /* transition: opacity 0.2s; */
-
+  transition: opacity 0.2s;
 }
 
 .menu-icon-line {
@@ -311,8 +310,8 @@ html {
   position: absolute;
   top: 2rem;
   left: 5rem;
-  font-size: 2rem;
-  color: white;
+  font-size: 4rem;
+  color: var(--light);
 }
 
 .circles {
