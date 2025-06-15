@@ -40,7 +40,7 @@ const animateCircles = (e, x, y) => {
       circle.style.top = `${z}px`
     })
     mainImg.style.top = `${z}px`
-  } else if (x > mY) {
+  } else if (y > mY) {
     circles.forEach((circle) => {
       circle.style.top = `-${z}px`
     })
@@ -77,7 +77,7 @@ const stickyElement = (x, y, hoveredEl) => {
 }
 
 const mouseCircleTransform = (hoveredEl) => {
-  if (hoveredEl.classList.contains ('pointer-event')) {
+  if (hoveredEl.classList.contains ('pointer-enter')) {
     hoveredEl.onmousemove = () => {
       mouseCircleBool = false
       mouseCircle.style.cssText = `
@@ -89,7 +89,7 @@ const mouseCircleTransform = (hoveredEl) => {
         transform: translate(0, 0)
         animation:none;
         border-radius: ${getComputedStyle(hoveredEl).borderBottomLeftRadius}
-        transition: width 0.5s, height 0.5s, top: 0.5s. left 0.5s, transform 0.5s, border-radius 0.5s
+        transition: width 0.5s, height 0.5s, top 0.5s. left 0.5s, transform 0.5s, border-radius 0.5s
       `
     }
     hoveredEl.onmouseleave = () => {
@@ -179,7 +179,7 @@ const progressBarFn = (bigImgWrapper) => {
       halfCircleTop.style.opacity = '1'
     }
   })
-  scrollBool = scrolledPortion + pageViewportHeight === page-height
+  scrollBool = scrolledPortion + pageViewportHeight === pageHeight
   
   if (scrollBool) {
     progressBarCircle.style.transform = 'rotate(180)deg'
@@ -213,7 +213,7 @@ progressBar.addEventListener('click', (e) => {
 progressBarFn()
 
 const menuIcon = document.querySelector('.menuIcon')
-const navbar = document.querySelector('navbar')
+const navbar = document.querySelector('.navbar')
 
 const scrollFn = () => {
   menuIcon.classList.add('show-menu-icon')
