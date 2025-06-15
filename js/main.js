@@ -209,3 +209,5 @@ progressBar.addEventListener('click', (e) => {
       : imageWrapper.scrollTo(0, imageWrapper.scrollHeight)
   }
 })
+
+progressBarFn()
