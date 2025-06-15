@@ -158,4 +158,8 @@ const progressBarFn = (bigImgWrapper) => {
   imageWrapper = bigImgWrapper
   let pageHeight = 0
   const pageViewportHeight = window.innerHeight
+
+  if (!imageWrapper) {
+    pageHeight = document.documentElement.scrollHeight
+  }
 }
