@@ -453,3 +453,22 @@ html {
   flex-direction: column;
   background-color: cyan;
 }
+
+@media (max-width: 1500px) {
+  .circle {
+    width: 15rem;
+    height: 15rem;
+  }
+  .main-circle {
+    width: 45rem;
+    height: 45rem;
+  }
+  .main-circle:hover {
+    width: 55rem;
+    height: 55rem;
+  }
+  .main-circle img {
+    width: 160%;
+    height: 160%;
+  }
+}
