@@ -232,3 +232,6 @@ menuIcon.addEventListener('click', () => {
   menuIcon.classList.remove('show-menu-icon')
   navbar.classList.remove('hide-navbar')
 })
+
+const latestText = document.querySelector('.latest-text')
+const latestTextContent = 'Seville roared. We answered in tongues of feedback and flame. You bled light in the dark. Nihilus sees you. The signal carries. Transmission: complete.'
