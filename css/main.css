@@ -416,6 +416,22 @@ html {
   background-color: lime;
 }
 
+@keyframes latestTextAnim {
+  0% {
+    color: var(--main);
+    top: 0;
+  }
+  10%,
+  90% {
+    color: var(--support);
+    top: 2rem;
+  }
+  100% {
+    color: var(--main);
+    top: 2rem;
+  }
+}
+
 .section-3 {
   width: 100%;
   height: 100%;
