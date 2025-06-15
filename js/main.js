@@ -216,5 +216,12 @@ const menuIcon = document.querySelector('.menuIcon')
 const navbar = document.querySelector('navbar')
 
 const scrollFn = () => {
+  menuIcon.classList.add('show-menu-icon')
+  navbar.classList.add('hide-navbar')
 
+  if (window.scrollY === 0) {
+    menuIcon.classList.remove('show-menu-icon')
+    navbar.classList.remove('hide-navbar')
+  }
+  progressBarFn()
 }
