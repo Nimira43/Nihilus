@@ -358,6 +358,9 @@ html {
   background: url('../images/circles/circle-1.jpg');
   background-size: cover;
   background-clip: content-box;
+  box-shadow: 
+    1rem 2rem 6rem rgba(255, 166, 0, 0.8),
+    inset 1rem 2rem 6rem rgba(255, 166, 0, 0.8);
   margin-left: -10rem;
 }
 
