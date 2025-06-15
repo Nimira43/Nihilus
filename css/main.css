@@ -114,7 +114,7 @@ html {
 
 .section-heading {
   font-size: 2rem;
-  color: white;
+  color: var(--light);
   text-transform: uppercase;
   position: absolute;
   top: 50%;
@@ -393,7 +393,7 @@ html {
 
 .featured-text {
   font-size: 2rem;
-  color: white;
+  color: var(--light);
   text-transform: uppercase;
   width: 0;
   word-wrap: break-word;
