@@ -412,5 +412,8 @@ html {
   margin: 0 10rem 0 auto;
 }
 
-
+.section-2 {
+  position: relative;
+  padding: 10rem 10rem 15rem 10rem;
+}
 
