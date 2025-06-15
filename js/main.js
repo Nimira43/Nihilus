@@ -163,7 +163,7 @@ const progressBarFn = (bigImgWrapper) => {
     pageHeight = document.documentElement.scrollHeight
     scrolledPortion = window.pageYOffset
   } else {
-    page-height = imageWrapper.firstElementChild.scrollHeight
+    pageHeight = imageWrapper.firstElementChild.scrollHeight
     scrolledPortion = imageWrapper.scrolling
   }
 
@@ -171,5 +171,14 @@ const progressBarFn = (bigImgWrapper) => {
 
   halfCircles.forEach((el) => {
     el.style.transform - `rotate(${scrolledPortionDegree}deg)`
+
+    if(scrolledPortionDegree >= 180) {
+      halfCircles[0].style.transform = 'rotate(180deg)'
+      halfCircleTop.style.opacoty = '0'
+    } else {
+      halfCircleTop.style.opacity = '1'
+    }
   })
+
+  
 }
