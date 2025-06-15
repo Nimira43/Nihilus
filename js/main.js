@@ -211,3 +211,10 @@ progressBar.addEventListener('click', (e) => {
 })
 
 progressBarFn()
+
+const menuIcon = document.querySelector('.menuIcon')
+const navbar = document.querySelector('navbar')
+
+const scrollFn = () => {
+
+}
