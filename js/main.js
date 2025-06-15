@@ -234,7 +234,7 @@ menuIcon.addEventListener('click', () => {
 })
 
 const latestText = document.querySelector('.latest-text')
-const latestTextContent = 'Seville roared. We answered in tongues of feedback and flame. You bled light in the dark. Nihilus sees you. The signal carries. Transmission: complete.'
+const latestTextContent = "Seville — two unforgettable nights soaked in rain and raw energy. You showed up, loud and wild. Next up - Lisbon. Are you ready? We’re inbound."
 
 Array.from(latestTextContent).forEach((char) => {
   const span = document.createElement('span')
