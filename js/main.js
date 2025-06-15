@@ -200,8 +200,12 @@ progressBar.addEventListener('click', (e) => {
       return sectionPosition > scrolledPortion
     })
 
-    scrollBool ? window.scrollTo(0, 0) : window.scrollTo(0, position)
+    scrollBool 
+      ? window.scrollTo(0, 0) 
+      : window.scrollTo(0, position)
   } else {
-    
+    scrollBool 
+      ? imageWrapper.scrollTo(0, 0) 
+      : imageWrapper.scrollTo(0, imageWrapper.scrollHeight)
   }
 })
