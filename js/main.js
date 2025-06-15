@@ -179,6 +179,11 @@ const progressBarFn = (bigImgWrapper) => {
       halfCircleTop.style.opacity = '1'
     }
   })
-
+  scrollBool = scrolledPortion + pageViewportHeight === page-height
   
+  if (scrollBool) {
+    progressBarCircle.style.transform = 'rotate(180)deg'
+  } else {
+    progressBarCircle.style.transform = 'rotate(0)'
+  }
 }
