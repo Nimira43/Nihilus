@@ -225,3 +225,10 @@ const scrollFn = () => {
   }
   progressBarFn()
 }
+
+document.addEventListener('scroll', scrollFn)
+
+menuIcon.addEventListener('click', () => {
+  menuIcon.classList.remove('show-menu-icon')
+  navbar.classList.remove('hide-navbar')
+})
