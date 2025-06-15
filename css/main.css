@@ -486,3 +486,24 @@ html {
     bottom: 0;
   }
 }
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 1150px;
+  }
+  .mouse-circle,
+  .mouse-dot {
+    display: none;
+  }
+  .navbar-link {
+    margin: 0 2rem;
+  }
+  .main-circle {
+    width: 40rem;
+    height: 40rem;
+  }
+  .main-circle:hover {
+    width: 45rem;
+    height: 45rem;
+  }
+}
