@@ -507,3 +507,22 @@ html {
     height: 45rem;
   }
 }
+
+@media (max-width: 900px) {
+  .menu-icon {
+    right: -4rem;
+  }
+  .navbar-link {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+  .featured-text-1 {
+    margin: 0 auto 0 5rem;
+  }
+  .featured-text-2 {
+    margin: 0 5rem 0 auto;
+  }
+  .section-heading {
+    left: 5rem;
+  }
+}
