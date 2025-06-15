@@ -415,5 +415,6 @@ html {
 .section-2 {
   position: relative;
   padding: 10rem 10rem 15rem 10rem;
+  background-color: lime;
 }
 
