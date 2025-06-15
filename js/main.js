@@ -161,5 +161,9 @@ const progressBarFn = (bigImgWrapper) => {
 
   if (!imageWrapper) {
     pageHeight = document.documentElement.scrollHeight
+    scrolledPortion = window.pageYOffset
+  } else {
+    page-height = imageWrapper.firstElementChild.scrollHeight
+    scrolledPortion = imageWrapper.scrolling
   }
 }
