@@ -339,37 +339,34 @@ html {
 }
 
 .circle-1 {
-  background: skyblue;
-  /* background-size: cover;
-  background-clip: content-box; */
-  /* border: 0.5rem solid red; */
+  background: url('../images/circles/circle-1.jpg');
   margin-left: -10rem;
 }
 
 .circle-2 {
-  background: skyblue;
-  /* background-size: cover;
-  background-clip: content-box; */
-  /* border: 0.5rem solid red; */
+  background: url('../images/circles/circle-2.jpg');
   margin-right: -10rem;
 }
 
 .circle-3 {
-  background: url('../images/circles/circle-1.jpg');
-  background-size: cover;
-  background-clip: content-box;
-  box-shadow: 
-    1rem 2rem 6rem rgba(255, 166, 0, 0.8),
-    inset 1rem 2rem 6rem rgba(255, 166, 0, 0.8);
+  background: url('../images/circles/circle-3.jpg');
   margin-left: -10rem;
 }
 
 .circle-4 {
-  background: skyblue;
-  /* background-size: cover;
-  background-clip: content-box; */
-  /* border: 0.5rem solid red; */
+  background: url('../images/circles/circle-4.jpg');
   margin-right: -10rem;
+}
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4 {
+  background-size: cover;
+  background-clip: content-box;
+  box-shadow: 
+    1rem 2rem 6rem rgba(255, 68, 0, 0.8),
+    inset 1rem 2rem 6rem rgba(255, 68, 0, 0.8);
 }
 
 .main-circle {
