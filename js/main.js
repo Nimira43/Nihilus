@@ -144,3 +144,12 @@ mainBtns.forEach((btn) => {
   })
 })
 
+const sections = document.querySelectorAll('section')
+const progressBar = document.querySelector('.progress-bar')
+const halfCircles = document.querySelectorAll('.half-circle')
+const halfCircleTop = document.querySelector('.half-circle-top')
+const progressBarCircle = document.querySelector('.progress-bar-circle')
+
+let scrolledPortion = 0
+let scrollBool = false
+let imageWrapper = false
