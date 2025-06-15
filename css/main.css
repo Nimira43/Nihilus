@@ -355,10 +355,9 @@ html {
 }
 
 .circle-3 {
-  background: skyblue;
-  /* background-size: cover;
-  background-clip: content-box; */
-  /* border: 0.5rem solid red; */
+  background: url('../images/circles/circle-1.jpg');
+  background-size: cover;
+  background-clip: content-box;
   margin-left: -10rem;
 }
 
