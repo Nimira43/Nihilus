@@ -235,3 +235,13 @@ menuIcon.addEventListener('click', () => {
 
 const latestText = document.querySelector('.latest-text')
 const latestTextContent = 'Seville roared. We answered in tongues of feedback and flame. You bled light in the dark. Nihilus sees you. The signal carries. Transmission: complete.'
+
+Array.from(latestTextContent).forEach((char) => {
+  const span = document.createElement('span')
+  span.textContent = char
+  latestText.appendChild(span)
+
+  span.addEventListener('mouseenter', (e) => {
+    e.target.style.animation = 'latestTextAnim 10s infinite'
+  })
+})
