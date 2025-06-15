@@ -153,3 +153,9 @@ const progressBarCircle = document.querySelector('.progress-bar-circle')
 let scrolledPortion = 0
 let scrollBool = false
 let imageWrapper = false
+
+const progressBarFn = (bigImgWrapper) => {
+  imageWrapper = bigImgWrapper
+  let pageHeight = 0
+  const pageViewportHeight = window.innerHeight
+}
