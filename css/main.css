@@ -542,3 +542,29 @@ html {
     height: 180%;
   }
 }
+
+@media (max-width: 400px) {
+  html {
+    font-size: 35%;
+  }
+  .logo {
+    font-size: 1.7rem;
+    top: 13rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar {
+    justify-content: center;
+    padding: 0;
+  }
+  .main-circle {
+    width: 38rem;
+  }
+  .main-circle:hover {
+    width: 42rem;
+  }
+  .main-circle img {
+    width: 200%;
+    height: 200%;
+  }
+}
