@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
 
+:root {
+  --dark: #111;
+  --light: #fffcfa;
+  --main: #ff4500;
+  --support: #ffd700;
+  --black: #000;
+  --main-font: 'Noto Serif', serif;
+  --logo-font: 'Tangerine', cursive;
+  --feature-font: 'Fredericka the Great', serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +18,8 @@
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  font-family: 'Noto Serif', serif;
+  font-family: var(--main-font);
   font-weight: 300;
-}
-
-:root {
-  --dark: #111;
-  --light: #fffcfa;
-  --main: #ff4500;
-  --support: #ffd700;
-  --black: #000;
 }
 
 html {
@@ -306,7 +309,7 @@ html {
 }
 
 .logo {
-  font-family: 'Tangerine', cursive;
+  font-family: var(--logo-font);
   position: absolute;
   top: 2rem;
   left: 5rem;
@@ -392,6 +395,7 @@ html {
 }
 
 .featured-text {
+  font-family: var(--feature-font);
   font-size: 2rem;
   color: var(--light);
   text-transform: uppercase;
