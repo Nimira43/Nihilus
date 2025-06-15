@@ -187,3 +187,11 @@ const progressBarFn = (bigImgWrapper) => {
     progressBarCircle.style.transform = 'rotate(0)'
   }
 }
+
+progressBar.addEventListener('click', (e) => {
+  e.preventDefault()
+
+  if(!imageWrapper) {
+    
+  }
+})
