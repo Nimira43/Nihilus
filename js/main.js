@@ -240,7 +240,6 @@ Array.from(latestTextContent).forEach((char) => {
   const span = document.createElement('span')
   span.textContent = char
   latestText.appendChild(span)
-
   span.addEventListener('mouseenter', (e) => {
     e.target.style.animation = 'latestTextAnim 10s infinite'
   })
